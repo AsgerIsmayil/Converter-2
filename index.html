@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile_style.css">
+    <title>Valyuta</title>
+</head>
+
+<body>
+    <div id="newNavbar">
+        <div class="newNavbarContainer">
+            <ul class="new_nabvar_elements">
+                <li><a href="#">BANK</a></li>
+                <li><a href="#">BUISNESS</a></li>
+                <li><a href="#">INVESTMENTS</a></li>
+                <li><a href="#">INSURANCE</a></li>
+                <li><a href="#">MOBILE</a></li>
+                <li><a href="#">TRIPS</a></li>
+                <li><a href="#">ENTERTAINMENT</a></li>
+            </ul>
+        </div>
+        <div class="menu_icon1">
+            <ion-icon class="menu_icon_self1" name="menu-outline"></ion-icon>   
+        </div>
+    </div>
+    <div id="container">
+        <div class="navbar_container">
+            <div class="navbar">
+                <div class="icon">
+                    <img src="./img/imgIcon.svg" alt="">
+                </div>
+                <div class="navbar_item_container">
+                    <ul class="nabvar_elements">
+                        <li><a href="#">BANK</a></li>
+                        <li><a href="#">BUSINESS</a></li>
+                        <li><a href="#">INVESTMENTS</a></li>
+                        <li><a href="#">INSURANCE</a></li>
+                        <li><a href="#">MOBILE</a></li>
+                        <li><a href="#">TRIPS</a></li>
+                        <li><a href="#">ENTERTAINMENT</a></li>
+                    </ul>
+                </div>
+                <div class="login_container">
+                    <input type="submit" value="LOGIN">
+                </div>
+            </div>
+            <div class="menu_icon">
+                <ion-icon class="menu_icon_self" name="menu-outline"></ion-icon>   
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                Currency converter online
+            </div>
+            <div class="pay_container">
+                <div class="left">
+                    <div class="left_head">
+                        I have
+                    </div>
+                    <div class="money_types_left money_types">
+                        <button class="rub money active">RUB</button><!--
+                        --><button class="usd money">USD</button><!--
+                        --><button class="eur money">EUR</button><!--
+                        --><button class="gbp money">GBP</button>
+                    </div>
+                    <div class="in_container">
+                        <input type="text" class="in input" maxlength="10" placeholder="...">
+                        <div class="in_value"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right_head">
+                        I want to buy
+                    </div>
+                    <div class="money_types_right money_types">
+                        <button class="rub2 money2" >RUB</button><!--
+                        --><button class="usd2 money2 active">USD</button><!--
+                        --><button class="eur2 money2">EUR</button><!--
+                        --><button class="gbp2 money2">GBP</button>
+                    </div>
+
+                    <div class="out_container">
+                        <input type="text" class="out input" maxlength="10" placeholder="..." value="">
+                        <div class="out_value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.2/imask.js" integrity="sha512-gMk+erunLJbj3kkTmgHcFp+tjzVNp0M1Jl/QmoT8/2WI0f2sfjo4QIxkNvPiVUtma2jNi0aCYsl5W5PHK5WzNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
